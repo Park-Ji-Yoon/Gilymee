@@ -31,7 +31,8 @@
             android:text="확인"
             android:layout_marginRight="10dp"
             android:textSize="18sp"
-            android:fontFamily="@font/spoqa_regular"/>
+            android:fontFamily="@font/spoqa_regular"
+            android:onClick="regist"/>
 
         <Button
             android:id="@+id/settime_exit_btn"
@@ -40,7 +41,8 @@
             android:layout_marginLeft="10dp"
             android:textSize="18sp"
             android:fontFamily="@font/spoqa_regular"
-            android:text="취소" />
+            android:text="취소"
+            android:onClick="unregist"/>
 
     </LinearLayout>
 
